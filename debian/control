@@ -1,0 +1,16 @@
+Source: meqtrees-timba
+Section: science
+Priority: extra
+Maintainer: vagrant <gijs@pythonic.nl>
+Build-Depends: debhelper (>= 8.0.0), cmake, libblitz0-dev, python-dev, libcasacore-dev, libblas-dev,
+ liblapack-dev, libgdbm-dev, wcslib-dev, libfftw3-dev, python-numpy, libcfitsio3-dev
+Standards-Version: 3.9.2
+Homepage: http://www.astron.nl/meqwiki/MeqTrees
+#Vcs-Git: git://git.debian.org/collab-maint/meqtrees-timba.git
+#Vcs-Browser: http://git.debian.org/?p=collab-maint/meqtrees-timba.git;a=summary
+
+Package: meqtrees-timba
+Architecture: any
+Depends: ${shlibs:Depends}, ${misc:Depends}
+Description: <insert up to 60 chars description>
+ <insert long description, indented with spaces>
